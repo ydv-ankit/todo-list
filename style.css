@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: antiquewhite;
+    margin-top: 3%;
+    min-height: 300px;
+}
+
+.head h1{
+    width: 100%;
+    text-align: center;
+    color: rgb(113, 145, 136);
+    font-family: sans-serif;
+    margin: 20px 0;
+}
+
+.add-item{
+    display: flex;
+}
+
+.add-item input{
+    width: 100%;
+    margin: 0 10px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.add-item input:enabled {
+    outline: none;
+    border: none;border-bottom: 2px solid green;
+    background-color: aliceblue;
+    color: brown;
+}
+
+#addTodo{
+    padding: 5px;
+    width: 50px;
+    font-size: 28px;
+    background: none;
+    color: blue;
+    outline: none;
+    border: 1px solid blue;
+}
+
+#addTodo:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.items{
+    width: 96%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.item-text{
+    width: 100%;
+    font-size: 3vh;
+    border-bottom: 1px solid rgb(42, 172, 237);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#item-active{
+    margin-top: 10px;
+}
+
+.del{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 2vh;
+    border: 1px solid red;
+    color: red
+}
+
+.del:hover{
+    color: white;
+    background: red;
+    cursor: pointer;
+}
