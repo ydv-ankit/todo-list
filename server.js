@@ -6,7 +6,7 @@ const app = express()
 const PORT = process.env.PORT || 4444
 
 app.get('/', (req, res)=>{
-    res.send("server up")
+    res.sendFile(__dirname + '/index.html')
 })
 
 app.listen(PORT, ()=>{
